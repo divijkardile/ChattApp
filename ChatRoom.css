@@ -1,0 +1,84 @@
+main {
+    margin: 4px auto;
+    padding: 10px 5px;
+    height: 80vh;
+    margin: 10vh 0 10vh;
+    overflow-y: scroll;
+    display: flex;
+    align-items: inherit;
+    flex-direction: column;
+  }
+
+  main::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  main::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  main::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+
+  form {
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    max-width: 728px;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  
+  form > button, .inside {
+    width: 20%;
+    font-size: 3.0rem;
+    background-color: rgb(56, 56, 143);
+  }
+  
+  
+  form > input {
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(58, 58, 58);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    max-width: 400px;
+    font-size: 2.0rem;
+  }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  a{
+      text-decoration: none;
+  }
+  .sign-in {
+    padding: 15px 32px;
+    color: white;
+    background-color: #282c34;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  ul, li {
+    text-align: left;
+    list-style: none;
+  }
